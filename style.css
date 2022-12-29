@@ -107,3 +107,48 @@ button {
     height: 150px;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.quote .container {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.quote .container i {
+    font-size: 36px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 50px 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.sign-up .container {
+    display: flex;
+    min-height: 150px;;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.sign-up-btn {
+    border: 2px solid #fff;
+}
