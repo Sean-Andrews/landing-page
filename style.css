@@ -152,3 +152,12 @@ button {
 .sign-up-btn {
     border: 2px solid #fff;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
